@@ -10,12 +10,13 @@ date "+%Y%m%d%H%M%S"   # 20201025194313
 ### 2.1 脚本的框架   
 ```shell 
 #!/bin/sh
-D=date "+%Y%m%d%H%M%S" 
+current_time=$(date "+%Y%m%d%H%M%S")
 git add .
-git commit -m D
+git commit -m ${current_time}
 git push  
 ```   
 
 ## 参考资料  
-1. https://www.cnblogs.com/wuhuohanke/p/10083798.html  
+1. https://www.cnblogs.com/wuhuohanke/p/10083798.html   
+2. https://jingyan.baidu.com/article/7c6fb428fa08b280642c90ea.html    
 
