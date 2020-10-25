@@ -10,9 +10,12 @@ date "+%Y%m%d%H%M%S"   # 20201025194313
 ### 2.1 脚本的框架   
 ```shell 
 #!/bin/sh
-D = date "+%Y%m%d%H%M%S" 
+D=date "+%Y%m%d%H%M%S" 
 git add .
 git commit -m D
 git push  
-```
+```   
+
+## 参考资料  
+1. https://www.cnblogs.com/wuhuohanke/p/10083798.html  
 
