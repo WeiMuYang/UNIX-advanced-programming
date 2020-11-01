@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/helloworld.h
+iostream
+-
+
+/home/yang/Desktop/UNIX-advanced-programming/03-UNIX-code/02-makeHelloworld/src/helloworld.cpp
+helloworld.h
+/home/yang/Desktop/UNIX-advanced-programming/03-UNIX-code/02-makeHelloworld/src/helloworld.h
+
+/home/yang/Desktop/UNIX-advanced-programming/03-UNIX-code/02-makeHelloworld/src/main.cpp
+helloworld.h
+/home/yang/Desktop/UNIX-advanced-programming/03-UNIX-code/02-makeHelloworld/src/helloworld.h
+

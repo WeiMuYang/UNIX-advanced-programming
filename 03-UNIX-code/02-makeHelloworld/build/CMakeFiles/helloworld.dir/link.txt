@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/helloworld.dir/src/helloworld.cpp.o CMakeFiles/helloworld.dir/src/main.cpp.o  -o ../bin/helloworld -rdynamic 
